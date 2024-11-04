@@ -290,13 +290,9 @@ Seis.addEventListener('click', function(){
 })
 
 Reset.addEventListener('click', function(){
-    let certeza = prompt('Quer mesmo resetar? [ S | N ]')
-
-    if(certeza.trim().toLowerCase() === 's' || certeza.trim().toLowerCase === 'sim'){
-        total = 0
-        h1Total.innerText = 'Total: '+total
-        conta = 'Conta: '
-        pConta.innerText = conta
-        h3ResultFinal.innerText = 'Resultado: '
-    }
+    total = 0
+    h1Total.innerText = 'Total: '+total
+    conta = 'Conta: '
+    pConta.innerText = conta
+    h3ResultFinal.innerText = 'Resultado: '
 })
