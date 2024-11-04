@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+#Um, #Dois, #Tres, #Quatro, #Cinco, #Seis{
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+    color: goldenrod;
+}
+
+#Um{
+    background: linear-gradient(140deg, rgb(123, 31, 255), rgb(0, 255, 255));
+}
+
+#Dois{
+    background: linear-gradient(40deg, rgb(123, 31, 255), rgb(0, 255, 255));
+}
+
+#Tres{
+    background: linear-gradient(320deg, rgb(123, 31, 255), rgb(0, 255, 255));
+}
+
+#Quatro{
+    background: linear-gradient(210deg, rgb(123, 31, 255), rgb(0, 255, 255));
+}
+
+#Cinco{
+    background: linear-gradient(140deg, rgb(123, 31, 255), rgb(0, 255, 255));
+}
+
+#Seis{
+    background: linear-gradient(210deg, rgb(123, 31, 255), rgb(0, 255, 255));
+}
+
+#Aleatorio{
+    font-size: 50px;
+    color: white;
+    background: linear-gradient(180deg, rgb(123, 31, 255), rgb(0, 255, 255));
+}
+
+#Reset{
+    font-size: 30px;
+    background: linear-gradient(320deg, rgb(255, 0, 0), rgb(255, 100, 100));
+    font-weight: bolder;
+}
